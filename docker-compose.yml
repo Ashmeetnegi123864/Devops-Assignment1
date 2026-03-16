@@ -10,7 +10,7 @@ services:
     environment:
       POSTGRES_DB: mydb
       POSTGRES_USER: admin
-      POSTGRES_PASSWORD: Divyanshu@123
+      POSTGRES_PASSWORD: ashmeet@123
 
     volumes:
       - pgdata:/var/lib/postgresql/data
@@ -34,7 +34,7 @@ services:
       DB_HOST: 192.168.50.21
       POSTGRES_DB: mydb
       POSTGRES_USER: admin
-      POSTGRES_PASSWORD: Divyanshu@123
+      POSTGRES_PASSWORD: ashmeet@123
 
     depends_on:
       database:
